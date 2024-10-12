@@ -5,3 +5,7 @@ from django.http import HttpResponse
 
 def say_hello(request):
     return HttpResponse("Hello world")
+
+def say_bye(request):
+    return HttpResponse("Bye!!!!!")
+
